@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  /*gap: 40px*/
+}
+
+.quote-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+  min-width: 30%;
+  max-width: 70%;
+}
+
+.quote {
+  border: 1px solid #f08e0f9e;
+  border-left: 20px solid #f08e0f9e;
+  padding: 10px 10px 10px 40px;
+  background-color: #f08e0f21;
+  color:#c94601;
+  width: 100%;
+}
+
+
+.quote img{
+    width: 40px;
+    height: 40px;
+    transform: scaleX(-1);
+    content: url("quote.svg");
+    filter: invert(29%) sepia(52%) saturate(2221%) hue-rotate(360deg) brightness(101%) contrast(103%);
+} 
+
+.quote-text {
+  font-size: 25px;
+  text-wrap: wrap;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 20px;
+  text-align: right;
+  opacity: .6;
+  padding-right: 20px;
+}
+
+
+/* .quote-author::before {
+  content: "-";
+  margin-right: 20px;
+  width: 60px;
+  font-weight: 900;
+} */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.page {
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 26px;
+  background-color: #f08e0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page.selected {
+  background-color: #c94601;
+}
