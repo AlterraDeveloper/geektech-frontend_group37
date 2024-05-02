@@ -1,0 +1,78 @@
+
+button {
+    width: 600px;
+    height: 200px;
+    font-size: 6rem;
+    background-color: blue;
+    color: white;
+    margin: 50px;
+    padding: 20px;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    font-size: 10rem;
+    background-color: red;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+
+}
+
+.people {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    width: 40%;
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+    padding: 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info span:nth-child(1) {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+
+.info span:nth-child(2) {
+    padding: 20px;
+    background-color: #399909;
+    border-radius: 40px;
+    color: white;
+}
+
+.sales {
+    background-color: #1145d4 !important;
+    color: white !important;
+
+}
+
+.development {
+    background-color: red !important;
+    color: white !important;
+}
+
+
+
